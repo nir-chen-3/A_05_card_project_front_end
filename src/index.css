@@ -1,0 +1,23 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light theme placeholder */
+.placeholder-light::placeholder {
+  color: #6c757d; /* Bootstrap's secondary text color */
+}
+
+/* Dark theme placeholder */
+.placeholder-dark::placeholder {
+  color: #adb5bd; /* Bootstrap's muted color for dark mode */
+}
+
+/* Light theme shadow */
+.for-light-theme-dark-shadow {
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark theme shadow */
+.for-dark-theme-light-shadow {
+  box-shadow: 0 0 12px 4px rgba(255, 255, 255, 0.15);
+}
